@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Retrouvez sur ce blog des posts qui vous apporteront au travers des mots bonheur, légereté et motivation.">
+
+    <meta property="og:site_name" content="Des mots pour panser" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ site.domain }}{{ page.url }}" />
+    <meta property="og:title" content="Des mots pour panser" />
+    <meta property="og:description" content="Retrouvez sur ce blog des posts qui vous apporteront au travers des mots bonheur, légereté et motivation." />
+    <meta property="og:image" content="{{ site.domain }}/assets/images/Logo.png" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Des mots pour panser" />
+    <meta name="twitter:description" content="Retrouvez sur ce blog des posts qui vous apporteront au travers des mots bonheur, légereté et motivation." />
+    <meta name="twitter:image" content="{{ site.domain }}/assets/images/Logo.png" />
+
+    <title>{{ site.name }}</title>
+
+    <link rel="stylesheet" href="/assets/css/home.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <link href='https://fonts.googleapis.com/css?family=M PLUS Rounded 1c' rel='stylesheet'>
+    <link rel="shortcut icon" href="/assets/images/Favicon.png">
+    <link rel="apple-touch-icon" href="/assets/images/Favicon.png" />
+
+    <script>
+        !function (g, s, q, r, d) {
+            r = g[r] = g[r] || function () { (r.q = r.q || []).push(arguments) };
+            d = s.createElement(q); d.src = '//d1l6p2sc9645hc.cloudfront.net/gosquared.js'; q =
+                s.getElementsByTagName(q)[0]; q.parentNode.insertBefore(d, q)
+        }(window, document
+            , 'script', '_gs');
+
+        _gs('GSN-722526-U');
+        _gs('set', 'anonymizeIP', true);
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        {{ content }}
+    </div>
+
+    <div class="footer">
+        <div class="socials">
+            <span class="footerLabel">Me suivre</span>
+
+            <div class="social">
+                <img src="/assets/images/icons/Facebook.png" alt="Logo Facebook">
+                <a href="{{ site.facebook }}"><span>Facebook</span></a>
+            </div>
+
+            <div class="social">
+                <img src="/assets/images/icons/YouTube.png" alt="Logo YouTube">
+                <a href="{{ site.youtube }}"><span>YouTube</span></a>
+            </div>
+
+            <div class="social">
+                <img src="/assets/images/icons/Podcast.png" alt="Icône podcast">
+                <a href="{{ site.podcast }}"><span>Podcast</span></a>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <span class="footerLabel">Navigation</span>
+
+            <a class="link" href="/"><span>Accueil</span></a>
+            <a class="link" href="/posts"><span>Posts</span></a>
+        </div>
+    </div>
+</body>
+
+</html>

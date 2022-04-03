@@ -1,0 +1,101 @@
+body {
+    font-family: "M PLUS Rounded 1c";
+
+    margin: 0;
+}
+
+.container {
+    min-height: 79vh;
+}
+
+nav {
+    margin-bottom: 2vh;
+
+    width: 100%;
+    height: 11vh;
+    background-color: #FFAA88;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .siteName {
+    margin-left: 1vh;
+    font-size: 6vh;
+}
+
+nav .postsLink {
+    margin-right: 3vh;
+    font-size: 3vh;
+}
+
+.pageTitle {
+    margin-bottom: 0vh;
+
+    font-size: 4vh;
+}
+
+.postLink {
+    text-decoration: none;
+}
+
+.postLink:hover .postTitle {
+    text-decoration: underline;
+}
+
+.content {
+    margin: 2vh;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+}
+
+.post .postImage {
+    width: 25vh;
+    height: auto;
+
+    border-radius: 1vh;
+
+    margin-right: 1.5vh;
+}
+
+.post .postTitle {
+    color: #404040;
+    font-size: 3.5vh;
+
+    font-weight: 600;
+}
+
+.post .postDescription {
+    color: #707070;
+    font-size: 2.5vh;
+}
+
+.post .postTags,.postDate  {
+    font-size: 1.5vh;
+
+    background-color: #E0E0E0;
+    color: #707070;
+
+    border-radius: 0.7vh;
+
+    padding: 0.8vh;
+}
+
+hr {
+    border: 0.1vh solid black;
+    border-radius: 0.7vh;
+    height: 0.1vh;
+    background-color: black;
+
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}

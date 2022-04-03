@@ -1,0 +1,6 @@
+name: "Des mots pour panser"
+facebook: "https://www.facebook.com/profile.php?id=100044363262593"
+url: "https://desmotspourpanser.go.yj.fr"
+
+plugins:
+  - jekyll-sitemap

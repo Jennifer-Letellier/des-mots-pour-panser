@@ -1,0 +1,155 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    min-height: 79vh;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: "M PLUS Rounded 1c";
+    margin: 0;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: #FFAA88;
+}
+
+.landing .landingTitle {
+    display: none;
+}
+
+.landing .landingLogo {
+    height: 95vh;
+}
+
+.landing .landingScroll {
+    height: 18vh;
+
+    margin-top: -12vh;
+}
+
+.home {
+    width: 100%;
+    height: 110vh;
+
+    background-color: #F5F5F5;
+}
+
+.home .about {
+    padding-top: 5vh;
+    padding-left: 6vh;
+
+    max-width: 184vh;
+
+    display: flex;
+    align-items: center;
+
+    float: left;
+}
+
+.home .about img {
+    width: 50vw;
+
+    border-radius: 40px;
+
+    margin-right: 2vh;
+}
+
+.home .aboutTitle {
+    font-size: 3vw;
+    font-weight: bolder;
+
+    color: #404040;
+}
+
+.home .aboutContent {
+    margin-top: -1vh;
+
+    font-size: 2vw;
+    font-weight: lighter;
+
+    color: #707070;
+}
+
+.home .latestPost {
+    padding-top: 5vh;
+    padding-right: 6vh;
+
+    max-width: 184vh;
+
+    display: flex;
+    align-items: center;
+
+    float: right;
+
+    text-align: right;
+}
+
+.home .latestPostContent:hover .latestPostTitle {
+    text-decoration: underline;
+}
+
+.home .latestPost img {
+    height: 40vh;
+
+    border-radius: 40px;
+
+    margin-left: 2vh;
+}
+
+.home .latestPost .latestPostLabel {
+    font-size: 3vw;
+    font-weight: bolder;
+
+    color: #404040;
+}
+
+.home .latestPost .latestPostTitle {
+    font-size: 3.3vw;
+    font-weight: bolder;
+
+    color: #707070;
+}
+
+.home .latestPost .latestPostDescription {
+    font-size: 2vw;
+
+    color: #707070;
+}
+
+.home .latestPost a {
+    color: #707070;
+    text-decoration: none;
+}
+
+.home .latestPost .latestPostAllArticles {
+    font-size: 2.5vh;
+
+    background-color: #E0E0E0;
+    color: #707070;
+
+    border-radius: 7px;
+
+    padding: 0.8vh;
+}
+
+.home .latestPost .latestPostAllArticles:hover {
+    text-decoration: underline;
+}
