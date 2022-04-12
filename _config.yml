@@ -2,7 +2,7 @@ name: "Des mots pour panser"
 facebook: "https://www.facebook.com/profile.php?id=100044363262593"
 youtube: "https://www.youtube.com/channel/UCAt1Txw1OvNAY1W72Bi7ikw"
 podcast: "https://redcircle.com/shows/capsules-douceur"
-url: "https://desmotspourpanser.go.yj.fr"
+url: "https://blog.jenniferletellier.fr"
 
 plugins:
   - jekyll-sitemap
