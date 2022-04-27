@@ -63,12 +63,12 @@
             <span class="postSignin">JENNIFER LETELLIER</span>
 
             <div class="navButtons">
-                {% if page.previous %}
-                    <a class="navButton" href="{{ page.previous.url }}">POST PRECEDENT</a>
-                {% endif %}
-
                 {% if page.next %}
                     <a class="navButton" href="{{ page.next.url }}">POST SUIVANT</a>
+                {% endif %}
+                
+                {% if page.previous %}
+                    <a class="navButton" href="{{ page.previous.url }}">POST PRECEDENT</a>
                 {% endif %}
             </div>
         </div>
