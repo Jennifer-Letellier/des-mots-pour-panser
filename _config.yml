@@ -4,5 +4,7 @@ youtube: "https://www.youtube.com/channel/UCAt1Txw1OvNAY1W72Bi7ikw"
 podcast: "https://redcircle.com/shows/capsules-douceur"
 url: "https://blog.jenniferletellier.fr"
 
+future: true
+
 plugins:
   - jekyll-sitemap
